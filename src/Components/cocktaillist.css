@@ -1,0 +1,22 @@
+.cocktails-center{
+    width: 85vw;
+    margin: 0 auto;
+    max-width: 40rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300.8px, 5fr));
+    column-gap: 1.8rem;
+    row-gap: 1.8rem;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+.section-title {
+    font-size: 2rem;
+    text-transform: capitalize;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    margin-bottom: 3.5rem;
+    margin-top: 1rem;
+  }

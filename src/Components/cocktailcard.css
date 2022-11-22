@@ -1,0 +1,48 @@
+.cocktail-card{
+    background: white;
+    margin-bottom: 2rem;
+    box-shadow: grey;
+    transition: all 0.3s linear;
+    
+}
+
+.cocktail-card:hover {
+    box-shadow: darkslategray;
+}
+
+.cocktail-card img {
+    width: 100%;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.cocktail-footer {
+    padding: 1.5rem;
+}
+
+.cocktail-footer h3,
+.cocktail-footer h4,
+.cocktail-footer p {
+    margin-bottom: 0.3rem;
+}
+.cocktail-footer h3 {
+    font-size: 2.2rem;
+}
+.cocktail-footer p {
+    color: grey;
+    margin-bottom: 0.5rem;
+}
+
+.details-btn{
+    cursor: pointer;
+    background: forestgreen;
+    border: none;
+    border-radius: 25px;
+    width: 50%;
+    height: 30px;
+}
+
+.details-btn:hover{
+    background: darkgreen;
+    color: white;
+}
